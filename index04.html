@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/2b0ee45a2e.js" crossorigin="anonymous"></script>
+    <style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-size: 16px;
+    }
+    header{
+        width: 700px;
+        height: 200px;
+        padding: 50px;
+    }
+    .caja1{
+        width: 100%;
+        height: 100px;
+        background-color: rgb(113, 113, 242);
+        display: flex;
+        flex-direction: row;
+    }
+    .caja2{
+        width: 100%;
+        height: 80px;
+        background-color: rgb(115, 220, 223);
+    }
+    .position1{
+        position: relative;
+        left: 15px;
+        top: 20px;
+
+    }
+    .position2{
+        position: relative;
+        left: 300px;
+        top: 10px;
+    }
+    .iconos{
+        color: white;
+        font-size: 50px;
+        padding: 10px;
+    }
+    .barras{
+        color: rgb(143, 228, 207);
+        font-size: 50px ;
+    }
+    .punto{
+        width: 30px;
+        height: 30px;
+        background-color: red;
+        border-radius: 50%;
+        color: white;
+        font-size: 1rem;/* al body*/
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .uno{
+        position: relative;
+        left: 45px;
+        bottom: 70px;
+    }
+    .dos{
+        position: relative;
+        left: 40px;
+        bottom: 70px;
+    }
+    .tres{
+        position: relative;
+        left: 50px;
+        bottom: 70px;
+    }
+    .puntobarra{
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background-color:rgb(143, 228, 207);
+    }
+    .nro1{
+        position: relative;
+        left: 320px;
+        top: 25px;
+    }
+    .nro2{
+        position: relative;
+        left: 310px;
+        top: 40px;
+    }
+    .nro3{
+        position: relative;
+        left: 300px;
+        top: 55px;
+    }
+    
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="caja1">
+            <div class="position1">
+                <i class="fas fa-bars barras"></i>
+            </div>
+            <div class="position2">
+                <i class="fas fa-heart iconos"></i>
+                <div class="punto uno">10</div>
+            </div>
+            <div class="position2">
+                <i class="fas fa-bell iconos"></i>
+                <div class="punto dos">8</div>
+            </div>
+            <div class="position2">
+                <i class="fas fa-shopping-cart iconos"></i>
+                <div class="punto tres">3</div>
+            </div>
+            
+                <div class="puntobarra nro1"></div>
+                <div class="puntobarra nro2"></div>
+                <div class="puntobarra nro3"></div>
+            
+        </div>
+
+        <div class="caja2"></div>
+    </header>
+</body>
+</html>
